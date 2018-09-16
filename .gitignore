@@ -103,6 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# api_keys
+# api keys
 **/config.py
 **/api_keys.py

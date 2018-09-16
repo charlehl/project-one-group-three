@@ -1,0 +1,625 @@
+,ORIGIN_COUNTRY,DEST_CITY_NAME,PASSENGERS_2013,LOC_RANK_2013,PASSENGERS_2014,LOC_RANK_2014,PASSENGERS_2015,LOC_RANK_2015,PASSENGERS_2016,LOC_RANK_2016,PASSENGERS_2017,LOC_RANK_2017,LOC_RANK_AVG
+0,US,"Cancun, Mexico",2954391,1,3329751,1,3871799,1,4136251,1,4513217,1,1
+1,US,"London, United Kingdom",2797514,2,2745845,2,2781709,2,2733856,2,2999371,2,2
+2,US,"Tokyo, Japan",2612234,3,2473841,3,2418778,3,2393795,3,2339026,3,3
+3,US,"Toronto, Canada",1651351,4,1638482,4,1610192,4,1588879,5,1627132,6,4.6
+4,US,"Mexico City, Mexico",1470428,6,1501717,5,1566517,5,1728504,4,1731296,4,4.8
+5,US,"Amsterdam, Netherlands",1498533,5,1449692,6,1540559,6,1549281,6,1677886,5,5.6
+6,US,"Paris, France",1321194,7,1405055,7,1455618,7,1446488,8,1500452,9,7.6
+7,US,"Punta Cana, Dominican Republic",966598,13,1172534,9,1362038,8,1471943,7,1500701,8,9
+8,US,"Vancouver, Canada",1114187,9,1222692,8,1242618,9,1226928,10,1236329,11,9.4
+9,US,"San Jose del Cabo, Mexico",1071654,10,1051980,13,1157689,10,1312551,9,1524246,7,9.8
+10,US,"Montego Bay, Jamaica",1022823,11,1083691,12,1145606,11,1224372,11,1308825,10,11
+11,US,"Frankfurt, Germany",1176003,8,1091823,11,1048003,12,970249,15,975536,14,12
+12,US,"Santo Domingo, Dominican Republic",942839,14,978199,14,1020428,13,1057657,12,1076367,13,13.2
+13,US,"Sao Paulo, Brazil",991687,12,1095809,10,1020232,14,928657,16,955684,16,13.6
+14,US,"San Jose, Costa Rica",830534,16,911085,15,966163,15,1029671,13,972709,15,14.8
+15,US,"Puerto Vallarta, Mexico",615517,20,743021,19,858734,17,976906,14,1091295,12,16.4
+16,US,"Montreal, Canada",900799,15,882102,16,878174,16,830640,19,787373,20,17.2
+17,US,"Nassau, The Bahamas",815128,17,839287,17,830580,18,858038,17,861046,18,17.4
+18,US,"Shanghai, China",621149,19,687745,20,774405,19,832206,18,820960,19,19
+19,US,"Calgary, Canada",726818,18,743118,18,711213,20,621718,23,619533,24,20.6
+20,US,"Aruba, Aruba",603189,21,633421,21,692067,21,684155,20,761008,21,20.8
+21,US,"Beijing, China",545461,23,568222,22,634880,22,661891,21,623429,23,22.2
+22,US,"Santiago, Dominican Republic",499158,26,564401,23,604047,23,634983,22,640355,22,23.2
+23,US,"Guatemala City, Guatemala",495664,27,552305,24,535913,24,542724,25,550395,26,25.2
+24,US,"Rome, Italy",478186,28,462748,28,494748,28,551434,24,601726,25,26.6
+25,US,"Bogota, Colombia",503704,24,551689,25,534564,25,464635,30,485354,32,27.2
+26,US,"Port-au-Prince, Haiti",455674,29,512419,27,499447,27,506891,27,529505,28,27.6
+27,US,"Guadalajara, Mexico",587813,22,536086,26,506553,26,470863,29,399240,40,28.6
+28,US,"Ezeiza, Argentina",500501,25,441523,31,429317,32,490495,28,537168,27,28.6
+29,US,"Madrid, Spain",450585,31,459770,29,482410,29,510271,26,520244,29,28.8
+30,US,"Seoul, South Korea",333836,45,413511,33,470730,30,429702,34,485691,31,34.6
+31,US,"Dublin, Ireland",377845,36,375205,38,393800,35,437935,33,469130,33,35
+32,US,"Lima, Peru",361406,39,428945,32,424130,33,421596,36,419293,35,35
+33,US,"Hong Kong, Hong Kong",297893,48,356832,41,434803,31,464625,31,515753,30,36.2
+34,US,"Munich, Germany",351304,41,389011,36,392089,37,399889,38,411265,36,37.6
+35,US,"Philipsburg, Sint Maarten",374530,38,407416,34,413331,34,407256,37,319997,48,38.2
+36,US,"Barcelona, Spain",348627,43,356301,42,366492,41,427048,35,455723,34,39
+37,US,"Osaka, Japan",451937,30,393764,35,390514,38,360384,43,309673,52,39.6
+38,US,"Monterrey, Mexico",320404,46,336353,45,386941,39,390139,40,407890,37,41.4
+39,US,"Tel Aviv, Israel",382000,35,363286,40,350977,43,324193,48,357516,42,41.6
+40,US,"Panama City, Panama",342465,44,354001,43,392688,36,357640,44,343391,45,42.4
+41,US,"Sydney, Australia",357135,40,322137,48,318202,49,393564,39,398220,41,43.4
+42,US,"Liberia, Costa Rica",264600,54,300591,51,349270,44,460747,32,406563,38,43.8
+43,US,"Havana, Cuba",257691,55,256967,56,331785,47,350164,45,861183,17,44
+44,US,"Brussels, Belgium",376108,37,370054,39,362714,42,273117,56,315523,49,44.6
+45,US,"Kingston, Jamaica",277353,51,322439,47,349100,45,375938,41,403166,39,44.6
+46,US,"Edmonton, Canada",403684,34,442125,30,382298,40,259885,59,242258,61,44.8
+47,US,"Rio de Janeiro, Brazil",417268,32,386742,37,311767,51,303052,52,296854,53,45
+48,US,"Providenciales, Turks and Caicos Islands",280801,49,322941,46,344061,46,366653,42,350466,44,45.4
+49,US,"Grand Cayman, Cayman Islands",273183,53,303495,49,305664,52,316497,49,355134,43,49.2
+50,US,"Hamilton, Bermuda",301541,47,282616,52,282236,55,313477,50,333721,46,50
+51,US,"San Salvador, El Salvador",251224,57,273489,54,329340,48,331626,46,313822,50,51
+52,US,"Managua, Nicaragua",257152,56,278473,53,314475,50,324838,47,312988,51,51.4
+53,US,"Manchester, United Kingdom",350502,42,344550,44,286444,54,267399,58,194611,64,52.4
+54,US,"Belize City, Belize",233499,58,248679,57,270977,57,313439,51,326545,47,54
+55,US,"Milan, Italy",218396,61,301664,50,290696,53,277679,54,276845,56,54.8
+56,US,"Zurich, Switzerland",277569,50,271436,55,230820,60,237717,62,243027,60,57.4
+57,US,"Port of Spain, Trinidad and Tobago",187433,65,243131,59,272212,56,276958,55,261736,57,58.4
+58,US,"Ottawa, Canada",274823,52,248356,58,230955,59,200410,64,195481,63,59.2
+59,US,"Santiago, Chile",201527,63,206721,63,253230,58,267532,57,259270,58,59.8
+60,US,"Quito, Ecuador",195565,64,198304,65,213604,64,278386,53,279952,54,60
+61,US,"San Pedro Sula, Honduras",223395,60,232587,60,222049,62,246179,61,251370,59,60.4
+62,US,"Barbados/Bridgetown, Barbados",203789,62,197768,66,227068,61,257439,60,277376,55,60.8
+63,US,"Caracas, Venezuela",415226,33,210934,62,131093,72,164801,68,157655,70,61
+64,US,"Nagoya, Japan",228425,59,226567,61,197397,65,178091,66,165114,66,63.4
+65,US,"Leon/Guanajuato, Mexico",155642,70,198794,64,215983,63,220975,63,198623,62,64.4
+66,US,"St. Lucia, Saint Lucia",148345,71,159907,69,172641,67,178510,65,185228,65,67.4
+67,US,"Cozumel, Mexico",157002,68,185376,68,188294,66,161046,69,163699,67,67.6
+68,US,"Winnipeg, Canada",182122,66,188311,67,164972,68,159165,70,159981,68,67.8
+69,US,"Medellin, Colombia",120227,75,148127,71,152957,69,167854,67,158217,69,70.2
+70,US,"Puerto Plata, Dominican Republic",137760,73,143574,72,137135,71,137810,74,145945,72,72.4
+71,US,"Victoria, Canada",115977,78,125563,75,130698,73,143787,71,154468,71,73.6
+72,US,"St. Johns, Antigua and Barbuda",110549,80,119840,77,121152,77,139208,72,124584,78,76.8
+73,US,"Venice, Italy",103844,83,111011,82,130458,74,131377,76,128888,76,78.2
+74,US,"Tegucigalpa, Honduras",109628,81,115542,79,122448,76,124889,77,119092,79,78.4
+75,US,"Guayaquil, Ecuador",111093,79,117332,78,118311,78,115079,79,115771,80,78.8
+76,US,"Manila, Philippines",163320,67,133148,74,91394,90,91327,87,97684,88,81.2
+77,US,"Shannon, Ireland",98099,85,97158,86,123461,75,122019,78,92803,89,82.6
+78,US,"Edinburgh, United Kingdom",65286,103,99952,84,108147,81,133925,75,143875,73,83.2
+79,US,"Willemstad, Curacao",116495,77,87452,92,98465,84,98364,81,104570,83,83.4
+80,US,"Halifax, Canada",142772,72,138445,73,110198,80,86174,89,56087,109,84.6
+81,US,"Fukuoka, Japan",135932,74,120324,76,88907,91,83722,91,82418,93,85
+82,US,"Mazatlan, Mexico",87914,90,91502,89,102756,83,96769,83,99757,87,86.4
+83,US,"Athens, Greece",62973,105,75562,100,103719,82,138598,73,141091,74,86.8
+84,US,"Johannesburg, South Africa",86876,91,92365,88,91844,89,91506,86,91591,90,88.8
+85,US,"Queretaro, Mexico",72515,97,83053,95,94763,86,97427,82,101552,86,89.2
+86,US,"Geneva, Switzerland",94109,87,89385,90,84946,96,84137,90,87052,91,90.8
+87,US,"Quebec, Canada",119201,76,112440,81,91868,88,72428,98,53473,111,90.8
+88,US,"Lisbon, Portugal",68756,99,79811,97,78691,98,95535,84,127428,77,91
+89,US,"Lagos, Nigeria",109560,82,115459,80,115669,79,68811,100,47916,118,91.8
+90,US,"Mumbai, India",91875,89,89337,91,84161,97,80150,94,77855,97,93.6
+91,US,"Delhi, India",83814,92,83248,94,85373,94,83481,92,80369,96,93.6
+92,US,"Freeport, The Bahamas",80507,93,95820,87,87405,92,76003,96,66256,102,94
+93,US,"Cartagena, Colombia",44399,117,60680,105,97828,85,114737,80,101708,85,94.4
+94,US,"Taipei, Taiwan",34346,130,84458,93,92636,87,94733,85,111840,81,95.2
+95,US,"St. Kitts, Saint Kitts and Nevis",76633,94,79242,98,85011,95,77872,95,81760,95,95.4
+96,US,"Dusseldorf, Germany",99003,84,98987,85,72594,100,67708,102,55513,110,96.2
+97,US,"Brasilia, Brazil",97382,86,102089,83,85438,93,49678,111,46292,119,98.4
+98,US,"Stuttgart, Germany",92454,88,80593,96,59336,105,60602,107,64589,103,99.8
+99,US,"Glasgow, United Kingdom",71076,98,72393,101,71685,101,66363,104,70550,100,100.8
+100,US,"Ixtapa/Zihuatanejo, Mexico",58650,107,62927,104,70290,102,66378,103,64235,104,104
+101,US,"Montevideo, Uruguay",63387,104,57307,107,56933,106,57806,110,58858,107,106.8
+102,US,"Melbourne, Australia",36995,124,36355,125,75481,99,81204,93,77234,98,107.8
+103,US,"Saskatoon, Canada",73952,96,78949,99,49412,111,45971,116,44973,120,108.4
+104,US,"Kelowna, Canada",65923,102,67582,102,54686,107,47322,112,43681,121,108.8
+105,US,"Berlin, Germany",44750,115,45819,114,51118,109,58670,108,73563,99,109
+106,US,"Grenada, Grenada",33371,133,40668,121,61603,104,74060,97,81899,94,109.8
+107,US,"San Luis Potosi, Mexico",38288,123,43817,117,52119,108,61112,106,62251,105,111.8
+108,US,"Birmingham, United Kingdom",47496,114,46657,113,68376,103,72414,99,31895,135,112.8
+109,US,"Roatan Island, Honduras",44405,116,51678,110,49256,112,46454,115,50170,114,113.4
+110,US,"Belo Horizonte, Brazil",48764,112,49666,112,43829,116,40309,123,49155,115,115.6
+111,US,"Auckland, New Zealand",24501,149,30987,133,30810,133,88477,88,130766,75,115.6
+112,US,"Road Town, British Virgin Islands",61254,106,52750,109,47710,113,40700,122,34498,129,115.8
+113,US,"Cali, Colombia",42724,118,41786,119,45485,114,46577,114,48591,117,116.4
+114,US,"Nice, France",49276,111,45547,115,43507,117,43446,118,36825,125,117.2
+115,US,"Singapore, Singapore",34671,128,29947,135,29660,136,65664,105,103672,84,117.6
+116,US,"Aguascalientes, Mexico",40255,121,39268,122,45303,115,42695,120,52515,112,118
+117,US,"Santa Clara, Cuba",13012,172,36315,126,50543,110,68620,101,104889,82,118.2
+118,US,"Accra, Ghana",48480,113,44481,116,39544,120,39326,125,40435,123,119.4
+119,US,"Marsh Harbour, The Bahamas",36317,125,34575,128,38917,121,43136,119,57395,108,120.2
+120,US,"Hamburg, Germany",41921,119,43699,118,42828,118,47065,113,25253,142,122
+121,US,"Stockholm, Sweden",56035,109,57035,108,40652,119,27157,140,25296,141,123.4
+122,US,"Moss Town, The Bahamas",26907,143,32841,131,36066,125,37878,127,50223,113,127.8
+123,US,"Chihuahua, Mexico",30859,135,34377,129,38052,122,35805,131,38171,124,128.2
+124,US,"Brisbane, Australia",33406,132,35497,127,37925,123,36434,129,32078,134,129
+125,US,"Moscow, Russia",75432,95,57663,106,31205,131,15866,159,13925,161,130.4
+126,US,"Merida, Mexico",32171,134,30036,134,28063,141,36367,130,43142,122,132.2
+127,US,"Maracaibo, Venezuela",56576,108,31510,132,23523,156,30429,137,33463,131,132.8
+128,US,"Holguin, Cuba",22961,153,21902,158,27107,143,40730,121,86347,92,133.4
+129,US,"Manaus, Brazil",34888,126,37065,123,28730,139,24258,143,25456,140,134.2
+130,US,"Prague, Czech Republic",28674,137,26999,140,27881,142,40223,124,33910,130,134.6
+131,US,"Camaguey, Cuba",23157,152,23325,154,30026,135,35156,132,67041,101,134.8
+132,US,"La Paz, Bolivia",34193,131,29168,137,30982,132,27545,139,28543,137,135.2
+133,US,"Belfast, United Kingdom",41356,120,40789,120,33807,128,38063,126,984,191,137
+134,US,"Sapporo, Japan",26927,142,25217,147,25320,149,34275,133,36543,127,139.6
+135,US,"Morelia, Mexico",26540,144,26795,141,28706,140,26763,141,32262,133,139.8
+136,US,"Dubai, United Arab Emirates",155979,69,155270,70,149658,70,9777,173,0,320,140.4
+137,US,"Keflavik/Reykjavik, Iceland",11285,181,14749,167,25692,146,58466,109,61741,106,141.8
+138,US,"Bonaire, Bonaire, Sint Eustatius, and Saba",21754,155,25830,144,26405,144,28663,138,28843,136,143.4
+139,US,"North Eleuthera, The Bahamas",20871,158,23344,153,24527,150,31493,134,35195,128,144.6
+140,US,"Veracruz, Mexico",34848,127,26408,142,24489,151,19947,149,15370,158,145.4
+141,US,"Puebla, Mexico",23556,151,25087,148,25398,147,24469,142,24507,143,146.2
+142,US,"Santa Cruz, Bolivia",28566,138,24911,150,22951,157,24196,144,23626,144,146.6
+143,US,"Georgetown, Guyana",12685,174,17473,162,29559,137,44439,117,19612,149,147.8
+144,US,"Manzanillo, Mexico",23656,150,23375,152,25352,148,22201,146,20517,147,148.6
+145,US,"Oslo, Norway",49828,110,51140,111,33085,130,17766,156,14,236,148.6
+146,US,"La Romana, Dominican Republic",27830,139,29205,136,22819,158,18360,153,15231,159,149
+147,US,"Koror, Palau",24676,148,24353,151,23937,155,20897,147,20000,148,149.8
+148,US,"Torreon, Mexico",25245,146,24915,149,25840,145,18226,154,16117,156,150
+149,US,"Loreto, Mexico",17874,162,18457,160,19786,162,20852,148,26186,139,154.2
+150,US,"Copenhagen, Denmark",27416,140,14307,170,13534,170,18555,152,17573,151,156.6
+151,US,"Armenia, Colombia",13206,170,13514,173,14221,167,17581,157,17528,152,163.8
+152,US,"Dakar, Senegal",15621,165,14194,171,14534,166,15127,161,15969,157,164
+153,US,"Cienfuegos, Cuba",22644,154,13511,174,11584,181,13185,164,19246,150,164.6
+154,US,"Hermosillo, Mexico",15158,166,13083,175,13599,169,15366,160,16966,154,164.8
+155,US,"Sendai, Japan",19783,159,25291,146,19087,164,8300,181,7111,174,164.8
+156,US,"Tampico, Mexico",14733,167,15012,166,13500,171,13517,163,13574,162,165.8
+157,US,"Villahermosa, Mexico",17146,164,17297,163,11616,180,10873,170,11610,166,168.6
+158,US,"Malaga, Spain",8485,191,9784,186,13166,173,19179,150,22005,145,169
+159,US,"Chuuk, Federated States of Micronesia",12733,173,12505,177,12412,175,13626,162,14235,160,169.4
+160,US,"Luanda, Angola",17294,163,17630,161,13477,172,9344,176,6113,179,170.2
+161,US,"St. John's, Canada",27402,141,27051,139,24416,152,6814,187,6,248.5,173.5
+162,US,"Papeete, French Polynesia",11737,178,12237,178,11942,179,10763,171,12177,163,173.8
+163,US,"Fort de France, Martinique",11660,179,14015,172,12403,176,9191,177,7936,170,174.8
+164,US,"Oaxaca, Mexico",12633,175,11954,179,12213,178,9364,175,10958,167,174.8
+165,US,"Pohnpei, Federated States of Micronesia",11479,180,11249,181,11072,182,11869,168,11994,164,175
+166,US,"Kitchener, Canada",17949,161,22130,156,24331,154,18791,151,4,257.5,175.9
+167,US,"Santiago, Cuba",7003,198,9878,185,10788,184,12242,166,16458,155,177.6
+168,US,"Santa Cruz/Huatulco, Mexico",13689,169,10653,183,8201,189,7841,183,8270,169,178.6
+169,US,"Toluca, Mexico",21375,156,14397,169,19062,165,1187,206,204,209,181
+170,US,"Majuro, Marshall Islands",8457,192,8798,190,9635,185,9592,174,9907,168,181.8
+171,US,"Marigot, Dominica",10071,185,9556,187,8062,190,8632,180,7825,171,182.6
+172,US,"Acapulco, Mexico",9544,187,8700,191,8210,188,8207,182,6825,175,184.6
+173,US,"Bimini, The Bahamas",5466,202,4280,210,4459,202,16357,158,17113,153,185
+174,US,"Ciudad del Carmen, Mexico",11925,176,11913,180,9062,186,4878,195,1179,190,185.4
+175,US,"London, Canada",24885,147,29147,138,29235,138,6966,186,0,320,185.8
+176,US,"Pointe A Pitre, Guadeloupe",10829,182,10218,184,8801,187,5033,194,3123,183,186
+177,US,"Treasure Cay, The Bahamas",8184,193,8515,192,7515,192,5649,193,7377,172,188.4
+178,US,"Kuwait, Kuwait",38979,122,25791,145,24355,153,883,209,0,320,189.8
+179,US,"Yap, Federated States of Micronesia",5870,201,6808,199,7188,193,7361,184,7310,173,190
+180,US,"Saint Barthelemy, Saint Barthelemy",4472,204,5545,202,5561,195,7125,185,6712,176,192.4
+181,US,"Hangzhou, China",299,228,1600,220,765,215,12671,165,21547,146,194.8
+182,US,"Kwajalein, Marshall Islands",4442,205,4166,211,4516,201,5669,192,6378,177,197.2
+183,US,"Curitiba, Brazil",4041,207,33941,130,30407,134,4067,197,0,320,197.6
+184,US,"Zacatecas, Mexico",2338,215,4614,208,5254,196,5813,191,5436,181,198.2
+185,US,"Istanbul, Turkey",68126,101,18663,159,21593,160,8,252,0,320,198.4
+186,US,"San Salvador, The Bahamas",4427,206,4652,206,3449,205,3867,198,4145,182,199.4
+187,US,"Nevis, Saint Kitts and Nevis",2642,213,4772,205,2809,206,3763,200,3006,184,201.6
+188,US,"Virgin Gorda, British Virgin Islands",3857,208,4511,209,3760,204,2484,204,2343,185,202
+189,US,"Bucharest, Romania",367,227,3404,213,4238,203,5926,190,6194,178,202.2
+190,US,"The Valley, Anguilla",3362,209,2365,215,2393,207,3273,201,6096,180,202.4
+191,US,"Manama, Bahrain",21313,157,14562,168,13668,168,520,212,0,320,205
+192,US,"Kosrae, Federated States of Micronesia",1899,217,1945,218,2110,208,2515,203,2024,186,206.4
+193,US,"Governors Harbour, The Bahamas",2973,211,1195,223,1392,210,1137,207,1835,187,207.6
+194,US,"Guantanamo, Cuba",721,220,2084,217,1425,209,665,211,242,204,212.2
+195,US,"Nanaimo, Canada",16,260.5,1479,221,557,221,324,213,296,202,223.5
+196,US,"Durango, Mexico",7640,196,8103,193,5200,197,190,217,0,320,224.6
+197,US,"Asuncion, Paraguay",25465,145,23246,155,5129,198,0,312,0,320,226
+198,US,"Gander, Canada",183,234,675,225,465,222,0,312,376,196,237.8
+199,US,"Anadyr, Russia",97,243.5,93,247,64,257.5,163,220,71,223,238.2
+200,US,"Goose Bay, Canada",152,237,18,270,163,235,2,266,227,208,243.2
+201,US,"Hamilton, Canada",63,252,2,295.5,80,250.5,181,218,230,205,244.2
+202,US,"Campbell River, Canada",16,260.5,116,243,196,232,20,236,4,257.5,245.8
+203,US,"Provideniya, Russia",30,257,18,270,16,278.5,50,230,9,238.5,254.8
+204,US,"Muskoka, Canada",16,260.5,19,268,17,276.5,13,240,19,234,255.8
+205,US,"Ramstein, Germany",636,223,0,348,4823,199,0,312,299,201,256.6
+206,US,"Fredericton, Canada",85,248,6,281.5,4,297,13,240,8,242,261.7
+207,US,"Saltillo, Mexico",10786,183,7233,197,0,357,5,257.5,0,320,262.9
+208,US,"Cayenne, French Guiana",150,238,11,275.5,0,357,42,231,82,222,264.7
+209,US,"Hahn, Germany",291,229,46,255.5,0,357,0,312,311,199,270.5
+210,US,"Shenzhen, China",0,342,6,281.5,207,231,0,312,128,216,276.5
+211,US,"Okinawa, Japan",3,277.5,0,348,669,217,0,312,7,245,279.9
+212,US,"Windsor, Canada",0,342,6,281.5,0,357,3153,202,9,238.5,284.2
+213,US,"Zanderij, Suriname",273,230,0,348,0,357,18,238,0,320,298.6
+214,US,"Glasgow/Prestwick, United Kingdom",0,342,0,348,0,357,60,228,8,242,303.4
+215,US,"Budapest, Hungary",0,342,0,348,45,265.5,0,312,1,274.5,308.4
+216,US,"Leipzig, Germany",153,236,0,348,0,357,0,312,0,320,314.6
+217,US,"Valencia, Venezuela",0,342,10,277.5,0,357,0,312,0,320,321.7
+218,US,"Barcelona, Venezuela",0,342,0,348,0,357,0,312,3,263.5,324.5
+219,US,"Ciudad del Este, Paraguay",0,342,0,348,0,357,0,312,0,320,335.8
+220,US,"Seville, Spain",0,342,0,348,0,357,0,312,0,320,335.8
+221,US,"Derby, United Kingdom",0,342,0,348,0,357,0,312,0,320,335.8
+222,US,"Niamey, Niger",0,342,0,348,0,357,0,312,0,320,335.8
+223,US,"Luxembourg, Luxembourg",0,342,0,348,0,357,0,312,0,320,335.8
+224,US,"Taranto, Italy",0,342,0,348,0,357,0,312,0,320,335.8
+225,US,"Liege, Belgium",0,342,0,348,0,357,0,312,0,320,335.8
+226,US,"Las Piedras, Venezuela",0,342,0,348,0,357,0,312,0,320,335.8
+227,US,"Zhengzhou, China",0,342,0,348,0,357,0,312,0,320,335.8
+228,US,"Cologne, Germany",0,342,0,348,0,357,0,312,0,320,335.8
+229,US,"Abuja, Nigeria",0,342,0,348,0,357,0,312,0,320,335.8
+230,US,"Regina, Canada",68685,100,65321,103,35247,127,23957,145,,,
+231,US,"Recife, Brazil",34429,129,36644,124,35349,126,10209,172,,,
+232,US,"Salvador, Brazil",29872,136,26153,143,22462,159,6724,188,,,
+233,US,"Bangkok, Thailand",18098,160,15398,165,11061,183,6206,189,,,
+234,US,"Helsinki, Finland",14417,168,12585,176,0,357,,,,,
+235,US,"Moncton, Canada",13190,171,9317,188,41,267,,,64,224,
+236,US,"Samana, Dominican Republic",11899,177,11124,182,12248,177,3852,199,,,
+237,US,"Doha, Qatar",10518,184,5696,201,,,,,2,268.5,
+238,US,"Thunder Bay, Canada",9793,186,3695,212,,,4,260.5,2,268.5,
+239,US,"Monrovia, Liberia",9234,188,5211,203,132,240,,,,,
+240,US,"Hiroshima, Japan",8817,189,4791,204,654,218,,,,,
+241,US,"Pisa, Italy",8779,190,6900,198,7898,191,9077,178,,,
+242,US,"Cairns, Australia",7987,194,7422,196,4787,200,,,4,257.5,
+243,US,"Okayama, Japan",7874,195,7926,195,846,213,,,,,
+244,US,"Fort McMurray, Canada",7345,197,5850,200,,,0,312,0,320,
+245,US,"Ho Chi Minh City, Vietnam",6807,199,9198,189,12884,174,11183,169,,,
+246,US,"Niigata, Japan",6561,200,4627,207,,,,,,,
+247,US,"Kabul, Afghanistan",5130,203,1121,224,,,0,312,,,
+248,US,"Manzanillo, Cuba",3114,210,2153,216,,,117,222,229,206.5,
+249,US,"Tuxtla Gutierrez, Mexico",2700,212,,,,,,,,,
+250,US,"Porto Alegre, Brazil",2340,214,21947,157,20269,161,4275,196,,,
+251,US,"Charlottetown, Canada",2107,216,2419,214,22,273.5,,,53,227,
+252,US,"La Paz, Mexico",1712,218,1,300,0,357,,,0,320,
+253,US,"Tarbes/Lourdes/Pyrenees, France",824,219,329,228,,,,,,,
+254,US,"Casablanca, Morocco",687,221,0,348,,,,,,,
+255,US,"Balboa, Panama",644,222,,,87,248,94,223,88,218.5,
+256,US,"Brize Norton, United Kingdom",549,224,4,286,,,0,312,,,
+257,US,"Varadero, Cuba",524,225,130,240,,,17837,155,48941,116,
+258,US,"Miyazaki, Japan",380,226,117,242,,,,,,,
+259,US,"Toyama, Japan",262,231,150,236,,,,,,,
+260,US,"Bishkek, Kyrgyzstan",205,232,0,348,,,,,,,
+261,US,"Busan, South Korea",194,233,0,348,,,0,312,0,320,
+262,US,"Amman, Jordan",181,235,,,,,0,312,,,
+263,US,"Iwoto, Japan",145,239,145,237,406,226,144,221,,,
+264,US,"Eindhoven, Netherlands",143,240,251,229,0,357,,,,,
+265,US,"Harbin, China",140,241,646,226,,,,,,,
+266,US,"Jerez de la Frontera, Spain",116,242,,,,,,,,,
+267,US,"Rota, Spain",97,243.5,,,410,225,0,312,0,320,
+268,US,"Fortaleza, Brazil",90,245,0,348,,,,,,,
+269,US,"Aomori, Japan",86,246.5,,,,,,,,,
+270,US,"Cabo San Lucas, Mexico",86,246.5,,,100,246,11,245,17,235,
+271,US,"Komatsu, Japan",84,249,,,,,,,,,
+272,US,"Akita, Japan",79,250,,,,,,,,,
+273,US,"Connaught, Ireland",71,251,,,,,,,,,
+274,US,"Ponta Delgada, Portugal",48,253,,,23,272,,,,,
+275,US,"Trenton, Canada",43,254,,,,,,,,,
+276,US,"Whitehorse, Canada",42,255,0,348,45,265.5,,,57,226,
+277,US,"Huehuetenango, Guatemala",36,256,,,,,,,,,
+278,US,"Tainan, Taiwan",17,258,0,348,0,357,,,,,
+279,US,"Shimla, India",16,260.5,,,,,,,,,
+280,US,"Mustique, Saint Vincent and the Grenadines",11,264.5,,,,,,,,,
+281,US,"Inuvik, Canada",11,264.5,,,,,,,,,
+282,US,"Las Palmas, Spain",11,264.5,80,249,,,,,,,
+283,US,"Jebel Ali, United Arab Emirates",11,264.5,,,0,357,0,312,0,320,
+284,US,"Colon, Panama",8,268,,,,,,,,,
+285,US,"Sal Island, Cape Verde",8,268,0,348,0,357,0,312,,,
+286,US,"Dease Lake, Canada",8,268,,,,,,,,,
+287,US,"Farnborough, United Kingdom",7,270.5,,,16,278.5,1,267,2,268.5,
+288,US,"Canouan, Saint Vincent and the Grenadines",7,270.5,,,,,,,5,252,
+289,US,"Dunbar, Australia",6,273,,,,,,,,,
+290,US,"Kaitaia, New Zealand",6,273,,,,,,,,,
+291,US,"Tortola, British Virgin Islands",6,273,,,,,,,,,
+292,US,"Desolation Sound, Canada",4,275.5,56,253.5,113,244,,,,,
+293,US,"Hannover, Germany",4,275.5,,,,,0,312,,,
+294,US,"Lajes, Portugal",3,277.5,418,227,273,229,,,191,210,
+295,US,"Tofino, Canada",2,279.5,43,257.5,31,271,,,,,
+296,US,"Big Bay Marina, Canada",2,279.5,6,281.5,15,280.5,,,,,
+297,US,"Polokwane, South Africa",1,281.5,,,,,,,,,
+298,US,"Mount Isa, Australia",1,281.5,,,,,,,,,
+299,US,"Genoa, Italy",0,342,,,,,0,312,134,215,
+300,US,"Guangzhou, China",0,342,0,348,0,357,,,,,
+301,US,"Sydney, Canada",0,342,,,,,,,,,
+302,US,"Stephenville, Canada",0,342,2,295.5,150,237,9,248.5,,,
+303,US,"Salalah, Oman",0,342,,,,,,,,,
+304,US,"Gothenburg, Sweden",0,342,,,,,4,260.5,,,
+305,US,"St. Vincent, Saint Vincent and the Grenadines",0,342,0,348,,,,,303,200,
+306,US,"Entebbe/Kampala, Uganda",0,342,,,,,,,0,320,
+307,US,"Shenyang, China",0,342,,,391,227,,,,,
+308,US,"Sharjah, United Arab Emirates",0,342,0,348,0,357,0,312,,,
+309,US,"Evreux, France",0,342,,,0,357,,,,,
+310,US,"Dhaka, Bangladesh",0,342,,,,,221,214.5,370,198,
+311,US,"Djibouti, Djibouti",0,342,,,0,357,0,312,0,320,
+312,US,"Spangdahlem, Germany",0,342,,,,,,,,,
+313,US,"General Santos, Philippines",0,342,,,,,,,,,
+314,US,"Cordoba, Argentina",0,342,,,0,357,,,229,206.5,
+315,US,"Fuzhou, China",0,342,,,,,,,135,214,
+316,US,"Sana'a, Yemen",0,342,,,,,,,,,
+317,US,"Freetown, Sierra Leone",0,342,0,348,0,357,,,,,
+318,US,"Dammam, Saudi Arabia",0,342,,,0,357,0,312,,,
+319,US,"Riyadh, Saudi Arabia",0,342,0,348,,,,,0,320,
+320,US,"Windhoek, Namibia",0,342,0,348,,,,,,,
+321,US,"Macau, Macau",0,342,0,348,,,221,214.5,,,
+322,US,"Maastricht, Netherlands",0,342,3,290.5,,,,,,,
+323,US,"Los Mochis, Mexico",0,342,,,0,357,,,,,
+324,US,"Lille, France",0,342,,,,,,,,,
+325,US,"Latacunga, Ecuador",0,342,0,348,0,357,0,312,,,
+326,US,"Lashkar Gah, Afghanistan",0,342,,,,,,,,,
+327,US,"Xi'an, China",0,342,,,,,12088,167,11760,165,
+328,US,"Xiamen, China",0,342,,,,,,,,,
+329,US,"Larnaca, Cyprus",0,342,,,,,0,312,,,
+330,US,"Lapu-Lapu City, Philippines",0,342,,,0,357,0,312,0,320,
+331,US,"Old Crow, Canada",0,342,0,348,0,357,0,312,,,
+332,US,"Orebro, Sweden",0,342,,,,,,,,,
+333,US,"Malabo, Equatorial Guinea",0,342,,,0,357,,,,,
+334,US,"Nantes, France",0,342,,,,,,,,,
+335,US,"Misawa, Japan",0,342,,,819,214,0,312,0,320,
+336,US,"Minnipa, Australia",0,342,,,,,,,,,
+337,US,"Mildenhall, United Kingdom",0,342,,,149,238,,,0,320,
+338,US,"Valledupar, Colombia",0,342,,,,,,,,,
+339,US,"Vitoria, Brazil",0,342,0,348,0,357,,,,,
+340,US,"Mulhouse, France",0,342,,,8,287,,,4,257.5,
+341,US,"Vladivostok, Russia",0,342,,,,,,,,,
+342,US,"Christmas Island, Kiribati",0,342,0,348,0,357,0,312,,,
+343,US,"Nadi, Fiji",0,342,8,279,,,,,9,238.5,
+344,US,"Manston, United Kingdom",0,342,,,,,,,,,
+345,US,"Turin, Italy",0,342,,,,,,,88,218.5,
+346,US,"Nairobi, Kenya",0,342,0,348,0,357,0,312,,,
+347,US,"Nanjing, China",0,342,,,416,224,1001,208,908,193,
+348,US,"Nanning, China",0,342,,,,,,,,,
+349,US,"Ostend, Belgium",0,342,0,348,,,0,312,,,
+350,US,"Gunsan, South Korea",0,342,,,452,223,,,0,320,
+351,US,"Jakarta, Indonesia",0,342,0,348,0,357,0,312,,,
+352,US,"Islamabad, Pakistan",0,342,,,,,0,312,,,
+353,US,"Iquique, Chile",0,342,,,,,,,,,
+354,US,"Queenstown, New Zealand",0,342,,,,,,,,,
+355,US,"Hefei, China",0,342,,,,,,,,,
+356,US,"Tobago, Trinidad and Tobago",0,342,0,348,,,,,,,
+357,US,"Riga, Latvia",0,342,0,348,0,357,0,312,,,
+358,US,"Tijuana, Mexico",0,342,,,6,291,,,1,274.5,
+359,US,"Jeddah, Saudi Arabia",0,342,,,,,,,0,320,
+360,US,"Jeju, South Korea",0,342,0,348,1,308,,,,,
+361,US,"Kuala Lumpur, Malaysia",0,342,0,348,0,357,,,0,320,
+362,US,"Perth, Australia",0,342,0,348,0,357,,,,,
+363,US,"Piedras Negras, Mexico",0,342,,,,,,,,,
+364,US,"Kitakyushu, Japan",0,342,0,348,0,357,,,,,
+365,US,"Pointe Noire, Congo (Brazaville)",0,342,,,,,,,,,
+366,US,"Porlamar, Venezuela",0,342,103,245,,,,,,,
+367,US,"Kathmandu, Nepal",0,342,,,,,,,,,
+368,US,"Karlstad, Sweden",0,342,,,,,,,,,
+369,US,"Kariba, Zimbabwe",0,342,,,,,,,,,
+370,US,"Kandahar, Afghanistan",0,342,,,0,357,,,,,
+371,US,"Port Moresby, Papua New Guinea",0,342,,,0,357,0,312,,,
+372,US,"Kagoshima, Japan",0,342,0,348,0,357,,,,,
+373,US,"Chongqing, China",0,342,,,,,,,181,211,
+374,US,"Bujumbura, Burundi",0,342,,,,,,,,,
+375,US,"Bayan Lepas, Malaysia",0,342,0,348,,,0,312,,,
+376,US,"Beirut, Lebanon",0,342,0,348,,,0,312,0,320,
+377,US,"Belem, Brazil",0,342,0,348,,,,,,,
+378,US,"Billund, Denmark",0,342,0,348,,,,,,,
+379,US,"Brno, Czech Republic",0,342,0,348,0,357,,,,,
+380,US,"Butterworth, Malaysia",0,342,,,,,,,,,
+381,US,"Cabo Frio, Brazil",0,342,0,348,,,,,0,320,
+382,US,"Cairo, Egypt",0,342,,,0,357,0,312,,,
+383,US,"Cape Town, South Africa",0,342,,,,,,,,,
+384,US,"Cassilandia, Brazil",0,342,0,348,,,,,,,
+385,US,"Cayman Brac, Cayman Islands",0,342,,,,,,,,,
+386,US,"Chalons-En-Champagne, France",0,342,,,0,357,0,312,0,320,
+387,US,"Chateauroux, France",0,342,,,,,,,,,
+388,US,"Chelyabinsk, Russia",0,342,,,,,,,,,
+389,US,"Bandar Seri Begawan, Brunei",0,342,,,,,,,,,
+390,US,"Baku, Azerbaijan",0,342,0,348,0,357,0,312,,,
+391,US,"Abu Dhabi, United Arab Emirates",0,342,0,348,,,0,312,,,
+392,US,"Ahmedabad, India",0,342,0,348,,,,,,,
+393,US,"Aktau, Kazakhstan",0,342,0,348,,,,,,,
+394,US,"Algiers, Algeria",0,342,0,348,0,357,,,0,320,
+395,US,"Aqaba, Jordan",0,342,,,,,,,,,
+396,US,"Ascension Island, Saint Helena, Ascension, and Tristan da Cunha",0,342,,,,,,,,,
+397,US,"Astana, Kazakhstan",0,342,,,,,,,,,
+398,US,"Avalon, Australia",0,342,,,,,,,0,320,
+399,US,"Aviano, Italy",0,342,,,,,,,,,
+400,US,"Bagram, Afghanistan",0,342,0,348,0,357,,,0,320,
+401,US,"Chengdu, China",,,16119,164,33789,129,30705,136,28281,138,
+402,US,"Cap-Haitien, Haiti",,,8092,194,37574,124,37323,128,36804,126,
+403,US,"Tianjin, China",,,1608,219,0,357,0,312,,,
+404,US,"Adler/Sochi, Russia",,,1447,222,,,,,,,
+405,US,"Natal, Brazil",,,218,230,,,,,,,
+406,US,"Dalian, China",,,213,231,0,357,64,226.5,,,
+407,US,"Ganges Harbor, Canada",,,211,232,126,241,,,,,
+408,US,"Lyon, France",,,191,233,,,,,,,
+409,US,"Concepcion, Chile",,,170,234,,,,,,,
+410,US,"Dent Island , Canada",,,155,235,236,230,,,,,
+411,US,"Matsuyama, Japan",,,144,238,,,74,224,,,
+412,US,"Sointula, Canada",,,133,239,125,242,,,,,
+413,US,"Cape Saint James, Canada",,,120,241,,,,,,,
+414,US,"Mendoza, Argentina",,,113,244,,,,,0,320,
+415,US,"Bliss Landing, Canada",,,98,246,103,245,,,,,
+416,US,"Bedwell Harbour, Canada",,,84,248,62,259.5,29,232,38,229,
+417,US,"Refuge Cove, Canada",,,78,250,158,236,,,,,
+418,US,"Warsaw, Poland",,,72,251,,,0,312,,,
+419,US,"Mansons Landing, Canada",,,58,252,69,256,,,,,
+420,US,"Pender Harbour, Canada",,,56,253.5,72,254,,,,,
+421,US,"Saint John, Canada",,,46,255.5,,,3,264,,,
+422,US,"Sullivan Bay, Canada",,,43,257.5,86,249,,,,,
+423,US,"Sonora Island, Canada",,,41,259,168,234,,,,,
+424,US,"Galiano Island, Canada",,,38,260,22,273.5,,,,,
+425,US,"Quadra Island, Canada",,,36,261,80,250.5,,,,,
+426,US,"Cortes Bay, Canada",,,35,262,40,268.5,,,,,
+427,US,"Port McNeill, Canada",,,32,263,64,257.5,,,,,
+428,US,"Lightning Ridge, Australia",,,30,264,,,,,,,
+429,US,"Gorge Harbor, Canada",,,28,265,56,262.5,,,,,
+430,US,"Mink Island, Canada",,,25,266,73,253,,,,,
+431,US,"Nootka Sound, Canada",,,24,267,13,282.5,,,,,
+432,US,"San Felipe, Mexico",,,18,270,576,220,13,240,,,
+433,US,"Port Hardy, Canada",,,17,272,17,276.5,,,9,238.5,
+434,US,"Princess Lousia Inlet, Canada",,,14,273,7,288.5,,,,,
+435,US,"Steep Island, Canada",,,13,274,12,284.5,,,,,
+436,US,"Bora Bora, French Polynesia",,,11,275.5,2,303,,,,,
+437,US,"La Macaza, Canada",,,10,277.5,2,303,8,252,3,263.5,
+438,US,"Nimmo Bay, Canada",,,5,284,2,303,,,,,
+439,US,"Newcastle, United Kingdom",,,4,286,7149,194,8787,179,,,
+440,US,"Egmont, Canada",,,4,286,11,286,,,,,
+441,US,"Hanson Island, Canada",,,3,290.5,1,308,,,,,
+442,US,"Kingston, Canada",,,3,290.5,,,,,,,
+443,US,"Niamtougou, Togo",,,3,290.5,,,,,,,
+444,US,"Shawl Bay, Canada",,,3,290.5,6,291,,,,,
+445,US,"Goiania, Brazil",,,3,290.5,,,,,,,
+446,US,"San Juan Aposento, Peru",,,2,295.5,,,,,,,
+447,US,"Biloela, Australia",,,2,295.5,,,,,,,
+448,US,"Plymouth, United Kingdom",,,1,300,1,308,,,,,
+449,US,"Anaco, Venezuela",,,1,300,,,4,260.5,,,
+450,US,"Antofagasta, Chile",,,1,300,0,357,,,,,
+451,US,"Lac La Ronge, Canada",,,1,300,,,,,,,
+452,US,"Kermanshah, Iran",,,0,348,,,,,1,274.5,
+453,US,"Kolkata, India",,,0,348,,,,,,,
+454,US,"Ndjamena, Chad",,,0,348,,,,,,,
+455,US,"Ouagadougou, Burkina Faso",,,0,348,0,357,,,,,
+456,US,"Osan, South Korea",,,0,348,0,357,0,312,0,320,
+457,US,"Karachi, Pakistan",,,0,348,,,,,,,
+458,US,"Nouakchott, Mauritania",,,0,348,,,,,0,320,
+459,US,"Norman's Cay, The Bahamas",,,0,348,,,,,,,
+460,US,"Marrakech, Morocco",,,0,348,,,,,,,
+461,US,"Mangochi, Malawi",,,0,348,,,,,,,
+462,US,"Luzon Island, Philippines",,,0,348,75,252,0,312,0,320,
+463,US,"Lakenheath, United Kingdom",,,0,348,,,,,0,320,
+464,US,"Tunis, Tunisia",,,0,348,0,357,0,312,0,320,
+465,US,"Tucuman, Argentina",,,0,348,701,216,0,312,0,320,
+466,US,"The Pas, Canada",,,0,348,,,,,,,
+467,US,"Yaounde, Cameroon",,,0,348,,,0,312,,,
+468,US,"Roseau, Dominica",,,0,348,,,,,,,
+469,US,"Port Harcourt, Nigeria",,,0,348,0,357,,,,,
+470,US,"Stella Maris, The Bahamas",,,0,348,,,,,,,
+471,US,"Sondre Stromfjord, Greenland",,,0,348,,,,,58,225,
+472,US,"Abidjan, Cote d'Ivoire",,,0,348,,,,,,,
+473,US,"Davao, Philippines",,,0,348,0,357,,,,,
+474,US,"Cuernavaca, Mexico",,,0,348,62,259.5,0,312,27,230,
+475,US,"Comayagua, Honduras",,,0,348,38,270,64,226.5,,,
+476,US,"Graz, Austria",,,0,348,0,357,,,,,
+477,US,"Barranquilla, Colombia",,,0,348,19757,163,31074,135,32649,132,
+478,US,"Bangalore, India",,,0,348,,,,,,,
+479,US,"Agadir, Morocco",,,0,348,,,,,,,
+480,US,"Addis Ababa, Ethiopia",,,0,348,0,357,,,,,
+481,US,"Changsha, China",,,0,348,944,212,,,0,320,
+482,US,"Canberra, Australia",,,0,348,,,,,0,320,
+483,US,"Blackbushe, United Kingdom",,,0,348,,,,,,,
+484,US,"Nuremberg, Germany",,,,,1160,211,,,,,
+485,US,"Moron, Spain",,,,,631,219,,,0,320,
+486,US,"Analalava, Madagascar",,,,,310,228,,,,,
+487,US,"Ankara, Turkey",,,,,183,233,,,,,
+488,US,"Santa Maria, Portugal",,,,,134,239,,,,,
+489,US,"Sigonella, Italy",,,,,120,243,0,312,,,
+490,US,"Fez, Morocco",,,,,89,247,,,,,
+491,US,"Avarua, Cook Islands",,,,,70,255,,,,,
+492,US,"Iwakuni, Japan",,,,,59,261,0,312,0,320,
+493,US,"Prince Rupert, Canada",,,,,56,262.5,6,255.5,7,245,
+494,US,"Baker Island, Canada",,,,,47,264,,,,,
+495,US,"Simoom Sound, Canada",,,,,40,268.5,,,,,
+496,US,"Blind Channel, Canada",,,,,19,275,,,,,
+497,US,"Anegada, British Virgin Islands",,,,,15,280.5,,,6,248.5,
+498,US,"Minstrel Island, Canada",,,,,13,282.5,,,,,
+499,US,"Rijeka, Croatia",,,,,12,284.5,,,0,320,
+500,US,"St. Pierre, Saint Pierre and Miquelon",,,,,7,288.5,,,,,
+501,US,"Miners Bay, Canada",,,,,6,291,,,,,
+502,US,"Kaieteur, Guyana",,,,,5,293.5,,,,,
+503,US,"Camiri, Bolivia",,,,,5,293.5,,,,,
+504,US,"Dawson City, Canada",,,,,4,297,,,,,
+505,US,"Shoal Bay, Canada",,,,,4,297,,,,,
+506,US,"Rendezvous Islands, Canada",,,,,4,297,,,,,
+507,US,"Charlo, Canada",,,,,4,297,21,234,20,233,
+508,US,"Port Harvey, Canada",,,,,3,300,,,,,
+509,US,"Waterkloof, South Africa",,,,,2,303,,,,,
+510,US,"Nakashibetsu, Japan",,,,,2,303,,,,,
+511,US,"Pastaza, Ecuador",,,,,1,308,,,,,
+512,US,"Parry Sound, Canada",,,,,1,308,11,245,6,248.5,
+513,US,"Noumea, New Caledonia",,,,,0,357,,,0,320,
+514,US,"Proserpine, Australia",,,,,0,357,,,,,
+515,US,"Pristina, Kosovo",,,,,0,357,,,,,
+516,US,"Port Elizabeth, South Africa",,,,,0,357,,,,,
+517,US,"Lethbridge, Canada",,,,,0,357,,,,,
+518,US,"Malta, Malta",,,,,0,357,0,312,,,
+519,US,"Kuching, Malaysia",,,,,0,357,,,,,
+520,US,"Utapao, Thailand",,,,,0,357,,,,,
+521,US,"Turkmenbashi, Turkmenistan",,,,,0,357,,,,,
+522,US,"Toulouse, France",,,,,0,357,0,312,0,320,
+523,US,"Tbilisi, Georgia",,,,,0,357,,,,,
+524,US,"Yellowknife, Canada",,,,,0,357,,,,,
+525,US,"Taif, Saudi Arabia",,,,,0,357,0,312,0,320,
+526,US,"Taegu, South Korea",,,,,0,357,,,,,
+527,US,"Sudbury, Canada",,,,,0,357,,,,,
+528,US,"Badin, Pakistan",,,,,0,357,,,0,320,
+529,US,"Al Ain, United Arab Emirates",,,,,0,357,,,,,
+530,US,"Apia, Samoa",,,,,0,357,,,,,
+531,US,"Al Kharj, Saudi Arabia",,,,,0,357,0,312,,,
+532,US,"Al Dhafra, United Arab Emirates",,,,,0,357,0,312,,,
+533,US,"Finningley, United Kingdom",,,,,0,357,0,312,6,248.5,
+534,US,"Kiev, Ukraine",,,,,0,357,0,312,2,268.5,
+535,US,"Kaohsiung, Taiwan",,,,,0,357,,,,,
+536,US,"Izmir, Turkey",,,,,0,357,,,,,
+537,US,"Hanoi, Vietnam",,,,,0,357,0,312,0,320,
+538,US,"Dhahran, Saudi Arabia",,,,,0,357,,,,,
+539,US,"Darwin, Australia",,,,,0,357,,,0,320,
+540,US,"Constanta, Romania",,,,,0,357,,,,,
+541,US,"Shijiazhuang, China",,,,,,,1291,205,1420,188,
+542,US,"Nanchang, China",,,,,,,867,210,925,192,
+543,US,"Ningbo, China",,,,,,,194,216,430,195,
+544,US,"Shizuoka, Japan",,,,,,,168,219,,,
+545,US,"Cayo Coco, Cuba",,,,,,,70,225,85,220,
+546,US,"Sofia, Bulgaria",,,,,,,52,229,,,
+547,US,"Zanjan, Iran",,,,,,,24,233,,,
+548,US,"Mar del Plata, Argentina",,,,,,,20,236,,,
+549,US,"Opapimiskan Lake, Canada",,,,,,,20,236,,,
+550,US,"Dubrovnik, Croatia",,,,,,,12,242.5,,,
+551,US,"Port Hawkesbury, Canada",,,,,,,12,242.5,25,231.5,
+552,US,"Chios, Greece",,,,,,,11,245,,,
+553,US,"Castlegar/Nelson/Trail, Canada",,,,,,,9,248.5,,,
+554,US,"Banz, Papua New Guinea",,,,,,,9,248.5,,,
+555,US,"North Bay, Canada",,,,,,,9,248.5,8,242,
+556,US,"Bromont, Canada",,,,,,,8,252,,,
+557,US,"Lanseria, South Africa",,,,,,,7,254,,,
+558,US,"Cat Cay, The Bahamas",,,,,,,6,255.5,,,
+559,US,"St. Catharines, Canada",,,,,,,5,257.5,,,
+560,US,"Lebel-sur-Quevillon, Canada",,,,,,,4,260.5,,,
+561,US,"Northolt, United Kingdom",,,,,,,3,264,1,274.5,
+562,US,"Manta, Ecuador",,,,,,,3,264,,,
+563,US,"Zaragoza, Spain",,,,,,,0,312,0,320,
+564,US,"Golfito, Costa Rica",,,,,,,0,312,,,
+565,US,"Naples, Italy",,,,,,,0,312,25,231.5,
+566,US,"Oulu, Finland",,,,,,,0,312,,,
+567,US,"Daqing Shi, China",,,,,,,0,312,,,
+568,US,"Douala, Cameroon",,,,,,,0,312,,,
+569,US,"Kaunas, Lithuania",,,,,,,0,312,,,
+570,US,"Kos, Greece",,,,,,,0,312,,,
+571,US,"Khamis Mushait, Saudi Arabia",,,,,,,0,312,,,
+572,US,"Marseille, France",,,,,,,0,312,3,263.5,
+573,US,"Mataram, Indonesia",,,,,,,0,312,,,
+574,US,"Tsaratanana, Madagascar",,,,,,,0,312,,,
+575,US,"Hohhot, China",,,,,,,0,312,,,
+576,US,"Ulan Bator, Mongolia",,,,,,,0,312,,,
+577,US,"Valencia, Spain",,,,,,,0,312,,,
+578,US,"Bordeaux, France",,,,,,,0,312,0,320,
+579,US,"Burgas, Bulgaria",,,,,,,0,312,,,
+580,US,"Christchurch, New Zealand",,,,,,,0,312,,,
+581,US,"Andeness, Norway",,,,,,,0,312,0,320,
+582,US,"Dakar Thies, Senegal",,,,,,,,,1283,189,
+583,US,"Wuxi, China",,,,,,,,,637,194,
+584,US,"Praia, Cape Verde",,,,,,,,,375,197,
+585,US,"Bari, Italy",,,,,,,,,250,203,
+586,US,"Jinan, China",,,,,,,,,176,212,
+587,US,"Porto, Portugal",,,,,,,,,146,213,
+588,US,"Chiclayo, Peru",,,,,,,,,110,217,
+589,US,"Yangon, Burma",,,,,,,,,84,221,
+590,US,"Peterborough, Canada",,,,,,,,,43,228,
+591,US,"Paramaribo, Suriname",,,,,,,,,7,245,
+592,US,"Union Island, Saint Vincent and the Grenadines",,,,,,,,,5,252,
+593,US,"Biarritz, France",,,,,,,,,5,252,
+594,US,"Kerry County, Ireland",,,,,,,,,4,257.5,
+595,US,"Krakow, Poland",,,,,,,,,4,257.5,
+596,US,"Kamloops, Canada",,,,,,,,,4,257.5,
+597,US,"Southampton, United Kingdom",,,,,,,,,4,257.5,
+598,US,"Berne, Switzerland",,,,,,,,,3,263.5,
+599,US,"Reykjavik, Iceland",,,,,,,,,2,268.5,
+600,US,"Kobe Honshu Island, Japan",,,,,,,,,2,268.5,
+601,US,"Avignon, France",,,,,,,,,1,274.5,
+602,US,"Ocho Rios, Jamaica",,,,,,,,,1,274.5,
+603,US,"St. Petersburg, Russia",,,,,,,,,0,320,
+604,US,"Iquitos, Peru",,,,,,,,,0,320,
+605,US,"Ciudad Juarez, Mexico",,,,,,,,,0,320,
+606,US,"Comox, Canada",,,,,,,,,0,320,
+607,US,"Zagreb, Croatia",,,,,,,,,0,320,
+608,US,"Wuhan, China",,,,,,,,,0,320,
+609,US,"Vienna, Austria",,,,,,,,,0,320,
+610,US,"Kumasi, Ghana",,,,,,,,,0,320,
+611,US,"Mombasa, Kenya",,,,,,,,,0,320,
+612,US,"Grand Turk, Turks and Caicos Islands",,,,,,,,,0,320,
+613,US,"Grande Prairie, Canada",,,,,,,,,0,320,
+614,US,"Malmo, Sweden",,,,,,,,,0,320,
+615,US,"Great Harbour Cay, The Bahamas",,,,,,,,,0,320,
+616,US,"Lulea, Sweden",,,,,,,,,0,320,
+617,US,"Popondetta, Papua New Guinea",,,,,,,,,0,320,
+618,US,"Kompongsom, Cambodia",,,,,,,,,0,320,
+619,US,"Nagasaki, Japan",,,,,,,,,0,320,
+620,US,"Changchun, China",,,,,,,,,0,320,
+621,US,"Brindisi, Italy",,,,,,,,,0,320,
+622,US,"Belgrade, Serbia",,,,,,,,,0,320,
+623,US,"Adelaide, Australia",,,,,,,,,0,320,

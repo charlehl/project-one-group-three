@@ -23,7 +23,7 @@ Is the decision based on attractions, events, weather, safety, accessibility, la
 on outbound passengers from the US to the World. Once established the city with the highest amount of passengers, we will focus on getting the most popular 
 attractions rated on Yelp Api to find out quantitative data from attractions (and then run a sentiment analyzer on the reviews?). We will also gather yearly 
 information on the open weather Api  to see if it influences the number of US visitor per destination.  We will compare the top destinations visited to try 
- to get an answer as to why that specific destination is ranked as the top.
+to get an answer as to why that specific destination is ranked as the top.
 
 Data Sets to be used: 
 • Bureau of Transportation Statistics (Air Carriers : T-100 International Market (US Carriers Only)) https://www.transtats.bts.gov/

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+                <meta name="description" content="Website to showcase project for bootcamp.">
+                <meta name="author" content="Charles Lee">
+                <link rel="icon" href="../../favicon.ico">
+            
+                <title>Travelytics: Data</title>
+            
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+                <!-- Add the below two to get drop down menu to work. -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+            <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+                <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#travelytics-navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                    <a class="navbar-brand" href="https://github.com/charlehl/project-one-group-three" target="_blank">Travelytics</a>
+                  </div>
+            
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="travelytics-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                      <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                                <li><a href="top_travel.html">Top 10 Travel Destinations</a></li>
+                                <li><a href="cancun.html">Cancun Plots</a></li>
+                                <li><a href="paris.html#">Paris Plots</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="comparison.html">Comparison Analysis</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="yearly_analysis_csv.html">Yearly Passenger Data</a></li>
+                                <li><a href="pass_temp_csv.html">Passenger and Temperature Data</a></li>
+                                <li><a href="rainfall_csv.html">Rainfall Data</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+              <div class="container-fluid">
+                      <div class="row">
+                          <div class="col-md-12">
+                              <h1>Passenger Travel and Average Temperature by Month</h1>
+                          </div>
+                          <div class="col-md-12">
+                                <table class="table table-bordered table-condensed table-responsive table-hover info-box">
+                                    <thead><tr><th title="Field #1">FIELD1</th>
+                                    <th title="Field #2">Month</th>
+                                    <th title="Field #3">Amsterdam(avg)</th>
+                                    <th title="Field #4">Amsterdam(avg.Temp)</th>
+                                    <th title="Field #5">Cancun(avg)</th>
+                                    <th title="Field #6">Cancun(avg.Temp)</th>
+                                    <th title="Field #7">London(avg)</th>
+                                    <th title="Field #8">London(avg.Temp)</th>
+                                    <th title="Field #9">Mexico City(avg)</th>
+                                    <th title="Field #10">Mexico City(avg.Temp)</th>
+                                    <th title="Field #11">Paris(avg)</th>
+                                    <th title="Field #12">Paris(avg.Temp)</th>
+                                    <th title="Field #13">Punta Cana(avg)</th>
+                                    <th title="Field #14">Punta Cana(avg.Temp)</th>
+                                    <th title="Field #15">San Jose del Cabo(avg)</th>
+                                    <th title="Field #16">San Jose del Cabo(avg.Temp)</th>
+                                    <th title="Field #17">Tokyo(avg)</th>
+                                    <th title="Field #18">Tokyo(avg.Temp)</th>
+                                    <th title="Field #19">Toronto(avg)</th>
+                                    <th title="Field #20">Toronto(avg.Temp)</th>
+                                    <th title="Field #21">Vancouver(avg)</th>
+                                    <th title="Field #22">Vancouver(avg.Temp)</th>
+                                    </tr></thead>
+                                    <tbody><tr>
+                                    <td align="right">0</td>
+                                    <td>January</td>
+                                    <td align="right">91505.2</td>
+                                    <td align="right">38.1</td>
+                                    <td align="right">309181.2</td>
+                                    <td align="right">75.4</td>
+                                    <td align="right">187661.4</td>
+                                    <td align="right">44.2</td>
+                                    <td align="right">128736.6</td>
+                                    <td align="right">58.3</td>
+                                    <td align="right">83466.2</td>
+                                    <td align="right">40.8</td>
+                                    <td align="right">89834.6</td>
+                                    <td align="right">76.6</td>
+                                    <td align="right">91225.4</td>
+                                    <td align="right">66.0</td>
+                                    <td align="right">197732.2</td>
+                                    <td align="right">41.4</td>
+                                    <td align="right">116941.8</td>
+                                    <td align="right">25.3</td>
+                                    <td align="right">80604.6</td>
+                                    <td align="right">39.4</td>
+                                    </tr>
+                                    <tr>
+                                    <td align="right">1</td>
+                                    <td>February</td>
+                                    <td align="right">75592.2</td>
+                                    <td align="right">38.3</td>
+                                    <td align="right">318929.4</td>
+                                    <td align="right">76.6</td>
+                                    <td align="right">143290.0</td>
+                                    <td align="right">44.2</td>
+                                    <td align="right">107547.8</td>
+                                    <td align="right">60.6</td>
+                                    <td align="right">67376.4</td>
+                                    <td align="right">42.1</td>
+                                    <td align="right">99100.6</td>
+                                    <td align="right">76.5</td>
+                                    <td align="right">100929.2</td>
+                                    <td align="right">66.6</td>
+                                    <td align="right">184500.2</td>
+                                    <td align="right">42.3</td>
+                                    <td align="right">110637.2</td>
+                                    <td align="right">27.3</td>
+                                    <td align="right">76467.4</td>
+                                    <td align="right">40.8</td>
+                                    </tr>
+                                    <tr>
+                                    <td align="right">2</td>
+                                    <td>March</td>
+                                    <td align="right">107990.2</td>
+                                    <td align="right">43.0</td>
+                                    <td align="right">394818.4</td>
+                                    <td align="right">78.4</td>
+                                    <td align="right">207920.6</td>
+                                    <td align="right">47.8</td>
+                                    <td align="right">121466.2</td>
+                                    <td align="right">64.6</td>
+                                    <td align="right">105123.6</td>
+                                    <td align="right">47.8</td>
+                                    <td align="right">127465.8</td>
+                                    <td align="right">77.0</td>
+                                    <td align="right">133882.2</td>
+                                    <td align="right">68.2</td>
+                                    <td align="right">225549.8</td>
+                                    <td align="right">47.7</td>
+                                    <td align="right">137276.8</td>
+                                    <td align="right">34.5</td>
+                                    <td align="right">91708.4</td>
+                                    <td align="right">44.4</td>
+                                    </tr>
+                                    <tr>
+                                    <td align="right">3</td>
+                                    <td>April</td>
+                                    <td align="right">132992.4</td>
+                                    <td align="right">48.4</td>
+                                    <td align="right">334011.8</td>
+                                    <td align="right">81.3</td>
+                                    <td align="right">238232.0</td>
+                                    <td align="right">53.6</td>
+                                    <td align="right">116774.6</td>
+                                    <td align="right">67.3</td>
+                                    <td align="right">118943.2</td>
+                                    <td align="right">52.7</td>
+                                    <td align="right">112788.2</td>
+                                    <td align="right">77.9</td>
+                                    <td align="right">111107.0</td>
+                                    <td align="right">71.4</td>
+                                    <td align="right">170352.6</td>
+                                    <td align="right">57.0</td>
+                                    <td align="right">132203.2</td>
+                                    <td align="right">46.2</td>
+                                    <td align="right">85081.2</td>
+                                    <td align="right">48.9</td>
+                                    </tr>
+                                    <tr>
+                                    <td align="right">4</td>
+                                    <td>May</td>
+                                    <td align="right">159123.4</td>
+                                    <td align="right">55.2</td>
+                                    <td align="right">326086.6</td>
+                                    <td align="right">83.7</td>
+                                    <td align="right">264697.6</td>
+                                    <td align="right">58.6</td>
+                                    <td align="right">123001.6</td>
+                                    <td align="right">68.0</td>
+                                    <td align="right">145812.0</td>
+                                    <td align="right">59.4</td>
+                                    <td align="right">116602.8</td>
+                                    <td align="right">79.5</td>
+                                    <td align="right">103764.6</td>
+                                    <td align="right">75.2</td>
+                                    <td align="right">208884.4</td>
+                                    <td align="right">64.8</td>
+                                    <td align="right">146855.2</td>
+                                    <td align="right">57.4</td>
+                                    <td align="right">112560.2</td>
+                                    <td align="right">55.0</td>
+                                    </tr>
+                                    <tr>
+                                    <td align="right">5</td>
+                                    <td>June</td>
+                                    <td align="right">162264.2</td>
+                                    <td align="right">69.7</td>
+                                    <td align="right">355326.0</td>
+                                    <td align="right">84.6</td>
+                                    <td align="right">297033.6</td>
+                                    <td align="right">64.9</td>
+                                    <td align="right">141108.4</td>
+                                    <td align="right">66.9</td>
+                                    <td align="right">155217.4</td>
+                                    <td align="right">64.9</td>
+                                    <td align="right">146220.2</td>
+                                    <td align="right">81.0</td>
+                                    <td align="right">120193.8</td>
+                                    <td align="right">79.7</td>
+                                    <td align="right">220942.8</td>
+                                    <td align="right">70.5</td>
+                                    <td align="right">143214.8</td>
+                                    <td align="right">66.9</td>
+                                    <td align="right">129728.8</td>
+                                    <td align="right">60.3</td>
+                                    </tr>
+                                    <tr>
+                                    <td align="right">6</td>
+                                    <td>July</td>
+                                    <td align="right">147283.2</td>
+                                    <td align="right">63.7</td>
+                                    <td align="right">372564.4</td>
+                                    <td align="right">85.1</td>
+                                    <td align="right">258365.4</td>
+                                    <td align="right">67.3</td>
+                                    <td align="right">155904.8</td>
+                                    <td align="right">64.8</td>
+                                    <td align="right">140572.2</td>
+                                    <td align="right">68.9</td>
+                                    <td align="right">169855.6</td>
+                                    <td align="right">81.5</td>
+                                    <td align="right">122687.2</td>
+                                    <td align="right">83.3</td>
+                                    <td align="right">208070.8</td>
+                                    <td align="right">77.0</td>
+                                    <td align="right">148652.0</td>
+                                    <td align="right">72.1</td>
+                                    <td align="right">142155.0</td>
+                                    <td align="right">64.4</td>
+                                    </tr>
+                                    <tr>
+                                    <td align="right">7</td>
+                                    <td>August</td>
+                                    <td align="right">164825.4</td>
+                                    <td align="right">63.5</td>
+                                    <td align="right">299043.0</td>
+                                    <td align="right">85.5</td>
+                                    <td align="right">282617.6</td>
+                                    <td align="right">66.9</td>
+                                    <td align="right">144418.8</td>
+                                    <td align="right">64.9</td>
+                                    <td align="right">148760.6</td>
+                                    <td align="right">68.5</td>
+                                    <td align="right">116870.2</td>
+                                    <td align="right">81.9</td>
+                                    <td align="right">93939.2</td>
+                                    <td align="right">84.0</td>
+                                    <td align="right">229965.6</td>
+                                    <td align="right">79.5</td>
+                                    <td align="right">158408.4</td>
+                                    <td align="right">70.7</td>
+                                    <td align="right">142382.8</td>
+                                    <td align="right">64.4</td>
+                                    </tr>
+                                    <tr>
+                                    <td align="right">8</td>
+                                    <td>September</td>
+                                    <td align="right">155944.4</td>
+                                    <td align="right">58.5</td>
+                                    <td align="right">183154.6</td>
+                                    <td align="right">84.0</td>
+                                    <td align="right">271376.8</td>
+                                    <td align="right">63.1</td>
+                                    <td align="right">114915.4</td>
+                                    <td align="right">64.4</td>
+                                    <td align="right">140555.4</td>
+                                    <td align="right">62.4</td>
+                                    <td align="right">57878.2</td>
+                                    <td align="right">81.7</td>
+                                    <td align="right">53041.6</td>
+                                    <td align="right">82.8</td>
+                                    <td align="right">211589.8</td>
+                                    <td align="right">73.0</td>
+                                    <td align="right">143892.0</td>
+                                    <td align="right">63.0</td>
+                                    <td align="right">104048.4</td>
+                                    <td align="right">58.8</td>
+                                    </tr>
+                                    <tr>
+                                    <td align="right">9</td>
+                                    <td>October</td>
+                                    <td align="right">137153.8</td>
+                                    <td align="right">51.8</td>
+                                    <td align="right">228564.6</td>
+                                    <td align="right">81.5</td>
+                                    <td align="right">228461.0</td>
+                                    <td align="right">56.3</td>
+                                    <td align="right">132419.4</td>
+                                    <td align="right">62.8</td>
+                                    <td align="right">119060.0</td>
+                                    <td align="right">55.4</td>
+                                    <td align="right">66417.8</td>
+                                    <td align="right">80.6</td>
+                                    <td align="right">79674.2</td>
+                                    <td align="right">79.2</td>
+                                    <td align="right">203541.8</td>
+                                    <td align="right">63.5</td>
+                                    <td align="right">143263.6</td>
+                                    <td align="right">51.3</td>
+                                    <td align="right">85545.2</td>
+                                    <td align="right">50.5</td>
+                                    </tr>
+                                    <tr>
+                                    <td align="right">10</td>
+                                    <td>November</td>
+                                    <td align="right">99926.6</td>
+                                    <td align="right">44.8</td>
+                                    <td align="right">278587.0</td>
+                                    <td align="right">78.6</td>
+                                    <td align="right">201949.4</td>
+                                    <td align="right">50.0</td>
+                                    <td align="right">139961.6</td>
+                                    <td align="right">61.3</td>
+                                    <td align="right">91660.0</td>
+                                    <td align="right">46.9</td>
+                                    <td align="right">82939.6</td>
+                                    <td align="right">79.3</td>
+                                    <td align="right">96496.2</td>
+                                    <td align="right">73.9</td>
+                                    <td align="right">188810.4</td>
+                                    <td align="right">53.8</td>
+                                    <td align="right">125004.6</td>
+                                    <td align="right">40.8</td>
+                                    <td align="right">74079.8</td>
+                                    <td align="right">43.3</td>
+                                    </tr>
+                                    <tr>
+                                    <td align="right">11</td>
+                                    <td>December</td>
+                                    <td align="right">108589.2</td>
+                                    <td align="right">39.2</td>
+                                    <td align="right">360814.8</td>
+                                    <td align="right">76.1</td>
+                                    <td align="right">230053.6</td>
+                                    <td align="right">44.6</td>
+                                    <td align="right">173437.2</td>
+                                    <td align="right">59.0</td>
+                                    <td align="right">109214.4</td>
+                                    <td align="right">41.9</td>
+                                    <td align="right">108789.2</td>
+                                    <td align="right">77.4</td>
+                                    <td align="right">116683.4</td>
+                                    <td align="right">68.4</td>
+                                    <td align="right">197594.4</td>
+                                    <td align="right">45.7</td>
+                                    <td align="right">116857.6</td>
+                                    <td align="right">31.1</td>
+                                    <td align="right">84189.0</td>
+                                    <td align="right">38.5</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                          </div>
+                      </div>
+                </div>
+        </body>
+</html>

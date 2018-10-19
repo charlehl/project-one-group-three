@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="utf-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+                <meta name="description" content="Website to showcase project for bootcamp.">
+                <meta name="author" content="Charles Lee">
+                <link rel="icon" href="../../favicon.ico">
+            
+                <title>Travelytics: Data</title>
+            
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+                <!-- Add the below two to get drop down menu to work. -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+                <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+            <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+                <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#travelytics-navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                    <a class="navbar-brand" href="https://github.com/charlehl/project-one-group-three" target="_blank">Travelytics</a>
+                  </div>
+            
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="travelytics-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                      <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                                <li><a href="top_travel.html">Top 10 Travel Destinations</a></li>
+                                <li><a href="cancun.html">Cancun Plots</a></li>
+                                <li><a href="paris.html#">Paris Plots</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="comparison.html">Comparison Analysis</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="yearly_analysis_csv.html">Yearly Passenger Data</a></li>
+                                <li><a href="pass_temp_csv.html">Passenger and Temperature Data</a></li>
+                                <li><a href="rainfall_csv.html">Rainfall Data</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+              <div class="container-fluid">
+                      <div class="row">
+                          <div class="col-md-12">
+                              <h1>Average Rainfall by Month </h1>
+                          </div>
+                          <div class="col-md-12">
+                                <table class="table table-bordered table-condensed table-responsive table-hover info-box">
+                                        
+                                    <thead><tr><th title="Field #1">Month</th>
+                                    <th title="Field #2">Cancun(avg.rain)</th>
+                                    <th title="Field #3">London(avg.rain)</th>
+                                    <th title="Field #4">Tokyo(avg.rain)</th>
+                                    <th title="Field #5">Toronto(avg.rain)</th>
+                                    <th title="Field #6">Mexico City(avg.rain)</th>
+                                    <th title="Field #7">Amsterdam(avg.rain)</th>
+                                    <th title="Field #8">Paris(avg.rain)</th>
+                                    <th title="Field #9">Punta Cana(avg.rain)</th>
+                                    <th title="Field #10">Vancouver(avg.rain)</th>
+                                    <th title="Field #11">San Jose del Cabo(avg.rain)</th>
+                                    </tr></thead>
+                                    <tbody><tr>
+                                    <td>January</td>
+                                    <td align="right">2.56</td>
+                                    <td align="right">2.44</td>
+                                    <td align="right">2.56</td>
+                                    <td align="right">3.31</td>
+                                    <td align="right">0.85</td>
+                                    <td align="right">2.81</td>
+                                    <td align="right">1.95</td>
+                                    <td align="right">2.81</td>
+                                    <td align="right">8.67</td>
+                                    <td align="right">0.37</td>
+                                    </tr>
+                                    <tr>
+                                    <td>February</td>
+                                    <td align="right">1.33</td>
+                                    <td align="right">1.78</td>
+                                    <td align="right">2.56</td>
+                                    <td align="right">2.22</td>
+                                    <td align="right">1.45</td>
+                                    <td align="right">2.45</td>
+                                    <td align="right">1.78</td>
+                                    <td align="right">2.22</td>
+                                    <td align="right">5.23</td>
+                                    <td align="right">0.33</td>
+                                    </tr>
+                                    <tr>
+                                    <td>March</td>
+                                    <td align="right">1.71</td>
+                                    <td align="right">1.46</td>
+                                    <td align="right">4.76</td>
+                                    <td align="right">2.32</td>
+                                    <td align="right">1.95</td>
+                                    <td align="right">2.07</td>
+                                    <td align="right">1.83</td>
+                                    <td align="right">2.69</td>
+                                    <td align="right">6.35</td>
+                                    <td align="right">0.12</td>
+                                    </tr>
+                                    <tr>
+                                    <td>April</td>
+                                    <td align="right">1.54</td>
+                                    <td align="right">1.42</td>
+                                    <td align="right">5.31</td>
+                                    <td align="right">3.19</td>
+                                    <td align="right">2.83</td>
+                                    <td align="right">1.77</td>
+                                    <td align="right">2.01</td>
+                                    <td align="right">4.37</td>
+                                    <td align="right">4.37</td>
+                                    <td align="right">0</td>
+                                    </tr>
+                                    <tr>
+                                    <td>May</td>
+                                    <td align="right">3.3</td>
+                                    <td align="right">1.59</td>
+                                    <td align="right">5.61</td>
+                                    <td align="right">3.42</td>
+                                    <td align="right">5.61</td>
+                                    <td align="right">2.2</td>
+                                    <td align="right">2.56</td>
+                                    <td align="right">6.35</td>
+                                    <td align="right">3.17</td>
+                                    <td align="right">0</td>
+                                    </tr>
+                                    <tr>
+                                    <td>June</td>
+                                    <td align="right">6.02</td>
+                                    <td align="right">1.54</td>
+                                    <td align="right">6.26</td>
+                                    <td align="right">3.54</td>
+                                    <td align="right">8.86</td>
+                                    <td align="right">2.6</td>
+                                    <td align="right">2.36</td>
+                                    <td align="right">4.49</td>
+                                    <td align="right">2.6</td>
+                                    <td align="right">0.12</td>
+                                    </tr>
+                                    <tr>
+                                    <td>July</td>
+                                    <td align="right">4.76</td>
+                                    <td align="right">1.71</td>
+                                    <td align="right">6.47</td>
+                                    <td align="right">3.54</td>
+                                    <td align="right">9.76</td>
+                                    <td align="right">3.3</td>
+                                    <td align="right">2.69</td>
+                                    <td align="right">5.13</td>
+                                    <td align="right">1.46</td>
+                                    <td align="right">0.61</td>
+                                    </tr>
+                                    <tr>
+                                    <td>August</td>
+                                    <td align="right">5.86</td>
+                                    <td align="right">2.32</td>
+                                    <td align="right">6.35</td>
+                                    <td align="right">3.17</td>
+                                    <td align="right">9.52</td>
+                                    <td align="right">3.78</td>
+                                    <td align="right">2.44</td>
+                                    <td align="right">6.71</td>
+                                    <td align="right">1.83</td>
+                                    <td align="right">1.95</td>
+                                    </tr>
+                                    <tr>
+                                    <td>September</td>
+                                    <td align="right">9.21</td>
+                                    <td align="right">2.13</td>
+                                    <td align="right">8.62</td>
+                                    <td align="right">3.31</td>
+                                    <td align="right">8.5</td>
+                                    <td align="right">3.43</td>
+                                    <td align="right">2.13</td>
+                                    <td align="right">8.62</td>
+                                    <td align="right">2.72</td>
+                                    <td align="right">4.13</td>
+                                    </tr>
+                                    <tr>
+                                    <td>October</td>
+                                    <td align="right">8.42</td>
+                                    <td align="right">2.81</td>
+                                    <td align="right">8.42</td>
+                                    <td align="right">3.42</td>
+                                    <td align="right">4.52</td>
+                                    <td align="right">3.54</td>
+                                    <td align="right">2.32</td>
+                                    <td align="right">7.93</td>
+                                    <td align="right">6.59</td>
+                                    <td align="right">1.59</td>
+                                    </tr>
+                                    <tr>
+                                    <td>November</td>
+                                    <td align="right">4.25</td>
+                                    <td align="right">2.72</td>
+                                    <td align="right">4.02</td>
+                                    <td align="right">3.07</td>
+                                    <td align="right">1.77</td>
+                                    <td align="right">3.54</td>
+                                    <td align="right">2.13</td>
+                                    <td align="right">6.02</td>
+                                    <td align="right">10.04</td>
+                                    <td align="right">0.83</td>
+                                    </tr>
+                                    <tr>
+                                    <td>December</td>
+                                    <td align="right">3.17</td>
+                                    <td align="right">2.56</td>
+                                    <td align="right">2.2</td>
+                                    <td align="right">2.93</td>
+                                    <td align="right">1.1</td>
+                                    <td align="right">3.42</td>
+                                    <td align="right">2.32</td>
+                                    <td align="right">3.17</td>
+                                    <td align="right">8.18</td>
+                                    <td align="right">0.49</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                          </div>
+                      </div>
+                </div>
+        </body>
+</html>
+

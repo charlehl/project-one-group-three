@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Website to showcase project for bootcamp.">
+    <meta name="author" content="Charles Lee">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Travelytics: Home</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Add the below two to get drop down menu to work. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+      <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#travelytics-navbar-collapse" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a class="navbar-brand" href="https://github.com/charlehl/project-one-group-three" target="_blank">Travelytics</a>
+            </div>
+      
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="travelytics-navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="top_travel.html">Top 10 Travel Destinations</a></li>
+                    <li><a href="cancun.html">Cancun Plots</a></li>
+                    <li><a href="paris.html#">Paris Plots</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="comparison.html">Comparison Analysis</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="yearly_analysis_csv.html">Yearly Passenger Data</a></li>
+                    <li><a href="pass_temp_csv.html">Passenger and Temperature Data</a></li>
+                    <li><a href="rainfall_csv.html">Rainfall Data</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+        
+        <div class="container">
+          <div class="info-box">
+          <div class="row">
+              <div class="col-md-12">
+                <h1><strong>Project: Travelytics</strong></h1>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-10 travel-adv" style="padding-left: 20px;">
+                <img src="images/travel_adv.jpg" class="img-rounded img-responsive pull-left" alt="Travel Advistory">
+                <p>
+                  Does a travel advisory make travel destinations less attractive? Does weather make a difference?
+                  In this project we tried tried to answer these questions.  What we found ulitmately was that travel
+                  advisories are not a factor when people plan their travel destinations.  We found that the majority
+                  of the passenger travel trends correlated with the temperature.  In addition, we found that there were outliers
+                  where passenger travel did not follow this trend.  Upon further analysis, we found that even during higher
+                  temperatures, that rain was also a factor which accounted for these anomalies.  This website is a highlight 
+                  for our project work.
+                </p>
+                <p>
+                  We began by gathering data for all of the US-carrier flights in and out of the United States.  We isolated
+                  the flights which originated from the the US and whose destination was outside of the US.  We gathered all flight 
+                  data from 2013 to 2017.  We broke down the passenger travel by city for each year then ranked the cities based upon 
+                  the total yearly travel.  Using the rank from each year we averaged all of these to get a final ranking for our data.  
+                  From there we were able to establish our top 10 cities.  For the scope of our project, we only looked at the top 10 
+                  as we did not have time to look into more.  Given more time and resources, we would have liked to look at more cities.
+                </p>
+                <p>
+                  We were able to gather a travel advisory json file which listed travel advisories given by the US government.  Unfortunately 
+                  the data only gave the travel advisory and last updated date.  It would have been nice to have seen travel advisories given by 
+                  date but we were unable to obtain such data.  From the travel advisory last update date, we were able to search for our city
+                  and then to run a t-test to see if there was any difference in travel patterns from the year before the travel advisory and the 
+                  year following.  After not finding any significant change, we next mapped out the passenger travel by month versus the average 
+                  temperature by month.  From the plot we were able to see a linear relationship between passenger travel peaks and temperature. 
+                  There were few anomalies which we were able to account for by rain.  Lastly, there was anomaly which we were unable to account for 
+                  in our analysis.  Unfortunately we were unable to account for Mexico City with any factor.  For our post mortem, we would have liked 
+                  to have been able to account for this travel pattern.
+                </p>
+              </div>
+              <div class="col-md-2 visible-md visible-lg" style="padding-left: 15px;  padding-right: 0px;">
+                <strong>Project Team:</strong>
+                <ul style="padding-left: 15px;">
+                  <li><a href="mailto:charlesleeis@gmail.com">Charles</a></li>
+                  <li>Cynthia</li>
+                  <li>Kristen</li>
+                  <li>Jimmy</li>
+                </ul>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="info-box">
+            <div class="row"> 
+                <div class="column-md-4" style="padding-left: 20px;">
+                  <h3><strong>Data Visualizations</strong></h3>
+                </div>
+            </div>
+            <div class="row"> 
+                <div class="column-md-4 services-section" style="padding-left: 20px; align-items: center;">
+                  <a href="top_travel.html">
+                    <img src="Resources/top_10_bar_chart.png" style="padding-bottom: 10px;" alt="Top Ten Travel Destinations">
+                  </a>
+                  <a href="cancun.html">
+                    <img src="Resources/cancun_avg_pass_temp.png" style="padding-bottom: 10px;" alt="Cancun Avg Temp and Passenger Travel">
+                  </a>
+                  <a href="cancun.html">
+                    <img src="Resources/cancun_temp_plot.png" style="padding-bottom: 10px;" alt="Cancun Avg Temp">
+                  </a>
+                  <a href="cancun.html">
+                    <img src="Resources/cancun_rain.png" style="padding-bottom: 10px;" alt="Cancun rainfall">
+                  </a>
+                  <a href="paris.html">
+                    <img src="Resources/paris_avg_pass_temp.png" style="padding-bottom: 10px;" alt="Paris Avg Temp and Passenger Travel">
+                  </a>
+                  <a href="paris.html">
+                    <img src="Resources/paris_temp_plot.png" style="padding-bottom: 10px;" alt="Paris Avg Temp">
+                  </a>
+                </div>
+            </div>
+          </div>
+        </div>
+
+  </body>
+</html>

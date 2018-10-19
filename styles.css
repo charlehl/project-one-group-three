@@ -1,0 +1,79 @@
+/* adding margin for add image*/
+.travel-adv img {
+    margin-right: 20px;
+}
+/* mozilla fix for responsive tables*/
+@-moz-document url-prefix() {
+    fieldset {
+        display: table-cell;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 0px 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.col-md-12 img {
+    margin-top: 8px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.info-box {
+    background-color:#FCF3CF;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+.services-section img {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.info-sub-box {
+    background-color:#FCF3CF;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .info-text-box {
+    background-color:#FCF3CF;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+    margin-top: -20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+.row_margin {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;    
+}

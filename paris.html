@@ -23,13 +23,13 @@
                       <div class="container-fluid">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#travelytics-navbar-collapse" aria-expanded="false">
+                          <button type="button" class="navbar-toggle collapsed" style="background-color: white;" data-toggle="collapse" data-target="#travelytics-navbar-collapse" aria-expanded="false">
                           <span class="sr-only">Toggle navigation</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
+                          <span class="icon-bar" style="background-color: #e3f2fd;"></span>
+                          <span class="icon-bar" style="background-color: #e3f2fd;"></span>
+                          <span class="icon-bar" style="background-color: #e3f2fd;"></span>
                         </button>
-                          <a class="navbar-brand" href="https://github.com/charlehl/project-one-group-three" target="_blank">Travelytics</a>
+                          <a class="navbar-brand" style="background-color: white;" href="https://github.com/charlehl/project-one-group-three" target="_blank">Travelytics</a>
                         </div>
                   
                         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,13 +39,15 @@
                             <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
                               <ul class="dropdown-menu">
-                                    <li><a href="top_travel.html">Top 10 Travel Destinations</a></li>
-                                    <li><a href="cancun.html">Cancun Plots</a></li>
-                                    <li><a href="paris.html#">Paris Plots</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="comparison.html">Comparison Analysis</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="yearly_analysis_csv.html">Data</a></li>
+                                <li><a href="top_travel.html">Top 10 Travel Destinations</a></li>
+                                <li><a href="cancun.html">Cancun Plots</a></li>
+                                <li><a href="paris.html#">Paris Plots</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="comparison.html">Comparison Analysis</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="yearly_analysis_csv.html">Yearly Passenger Data</a></li>
+                                <li><a href="pass_temp_csv.html">Passenger and Temperature Data</a></li>
+                                <li><a href="rainfall_csv.html">Rainfall Data</a></li>
                               </ul>
                             </li>
                           </ul>
@@ -56,14 +58,17 @@
                     </nav>
                     <div class="container-fluid">
                       <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 text-center">
                             <h3>Data Plots of Paris:</h3>
                         </div>
-                        <div class="col-md-12 info-sub-box" style="display: flex; align-items: right;">
+                        <div class="info-box services-section">
+                        <div class="col-md-4" style="display: flex; align-items: right;">
                           <img src="Resources/paris_avg_pass_temp.png" class="img-responsive" alt="Paris Avg Pass Temp">
+                        </div>
+                        <div class="col-md-4" style="display: flex; align-items: right;">
                           <img src="Resources/paris_temp_plot.png" class="img-responsive" alt="Paris Temp">
                         </div>
-                        <div class="col-md-12 info-text-box">
+                        <div class="col-md-12">
                             <p>
                                 These are the plots for Paris that we used for our project analysis.  As you can see in the first figure 
                                 the passenger travel very closely follows the average temperature.  You can see that the passenger travel 
@@ -71,32 +76,39 @@
                                 December to January time frame which would mostly likely be due to holiday travel for Christmas/New Years.
                             </p>
                         </div>
-                      </div>
-                      <div class="row row_margin">
-                          <div class="col-md-12 visible-md visible-lg info-sub-box" style="display: flex; align-items: right;">
-                              <div class="services-section">
-                                  <h4 class = "text-center">Data Visualizations</h4>
-                                  <a href="top_travel.html">
-                                    <img src="Resources/top_10_bar_chart.png" class="img-responsive img-thumbnail" style="max-height: 150px; max-width: 300px;" alt="Top Ten Travel Destinations">
-                                  </a>
-                                  <a href="cancun.html">
-                                    <img src="Resources/cancun_avg_pass_temp.png" class="img-responsive img-thumbnail" style="max-height: 150px; max-width: 300px;" alt="Cancun Avg Temp and Passenger Travel">
-                                  </a>
-                                  <a href="cancun.html">
-                                    <img src="Resources/cancun_temp_plot.png" class="img-responsive img-thumbnail" style="max-height: 150px; max-width: 300px;" alt="Cancun Avg Temp">
-                                  </a>
-                                  <a href="cancun.html">
-                                    <img src="Resources/cancun_rain.png" class="img-responsive img-thumbnail" style="max-height: 150px; max-width: 300px;" alt="Cancun rainfall">
-                                  </a>
-                                  <a href="paris.html">
-                                    <img src="Resources/paris_avg_pass_temp.png" class="img-responsive img-thumbnail" style="max-height: 150px; max-width: 300px;" alt="Paris Avg Temp and Passenger Travel">
-                                  </a>
-                                  <a href="paris.html">
-                                    <img src="Resources/paris_temp_plot.png" class="img-responsive img-thumbnail" style="max-height: 150px; max-width: 300px;" alt="Paris Avg Temp">
-                                  </a>
-                              </div>
-                              </div>
+                        </div>
                       </div>
                     </div>
+                    <div class="container-fluid">
+                        <div class="info-box visible-md visible-lg">
+                          <div class="row"> 
+                              <div class="column-md-12 text-center" style="padding-left: 20px;">
+                                  <h4>Data Visualizations</h4>
+                              </div>
+                          </div>
+                          <div class="row"> 
+                              <div class="column-md-12 services-section" style="padding-bottom: 10px;">
+                                  <a href="top_travel.html">
+                                      <img src="Resources/top_10_bar_chart.png" class="img-responsive img-thumbnail" style="max-height: 150px; max-width: 300px;" alt="Top Ten Travel Destinations">
+                                    </a>
+                                    <a href="cancun.html">
+                                      <img src="Resources/cancun_avg_pass_temp.png" class="img-responsive img-thumbnail" style="max-height: 150px; max-width: 300px;" alt="Cancun Avg Temp and Passenger Travel">
+                                    </a>
+                                    <a href="cancun.html">
+                                      <img src="Resources/cancun_temp_plot.png" class="img-responsive img-thumbnail" style="max-height: 150px; max-width: 300px;" alt="Cancun Avg Temp">
+                                    </a>
+                                    <a href="cancun.html">
+                                      <img src="Resources/cancun_rain.png" class="img-responsive img-thumbnail" style="max-height: 150px; max-width: 300px;" alt="Cancun rainfall">
+                                    </a>
+                                    <a href="paris.html">
+                                      <img src="Resources/paris_avg_pass_temp.png" class="img-responsive img-thumbnail" style="max-height: 150px; max-width: 300px;" alt="Paris Avg Temp and Passenger Travel">
+                                    </a>
+                                    <a href="paris.html">
+                                      <img src="Resources/paris_temp_plot.png" class="img-responsive img-thumbnail" style="max-height: 150px; max-width: 300px;" alt="Paris Avg Temp">
+                                    </a>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
             </body>
 </html>

@@ -35,7 +35,8 @@
 .info-box {
     background-color:#FCF3CF;
     padding-left: 10px;
-    padding-right: 0px;
+    padding-right: 10px;
+    padding-top: 1%;
     margin-bottom: 5%;
     margin-left: 5%;
     margin-right: 5%;
@@ -43,6 +44,12 @@
 
 .services-section img {
     text-align: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    align-items: center;
 }
 
 .text-center {

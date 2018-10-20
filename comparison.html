@@ -23,13 +23,13 @@
                       <div class="container-fluid">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
-                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#travelytics-navbar-collapse" aria-expanded="false">
+                          <button type="button" class="navbar-toggle collapsed" style="background-color: white;" data-toggle="collapse" data-target="#travelytics-navbar-collapse" aria-expanded="false">
                           <span class="sr-only">Toggle navigation</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
+                          <span class="icon-bar" style="background-color: #e3f2fd;"></span>
+                          <span class="icon-bar" style="background-color: #e3f2fd;"></span>
+                          <span class="icon-bar" style="background-color: #e3f2fd;"></span>
                         </button>
-                          <a class="navbar-brand" href="https://github.com/charlehl/project-one-group-three" target="_blank">Travelytics</a>
+                          <a class="navbar-brand" style="background-color: white;" href="https://github.com/charlehl/project-one-group-three" target="_blank">Travelytics</a>
                         </div>
                   
                         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,15 +39,15 @@
                             <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
                               <ul class="dropdown-menu">
-                                    <li><a href="top_travel.html">Top 10 Travel Destinations</a></li>
-                                    <li><a href="cancun.html">Cancun Plots</a></li>
-                                    <li><a href="paris.html#">Paris Plots</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="comparison.html">Comparison Analysis</a></li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="yearly_analysis_csv.html">Yearly Passenger Data</a></li>
-                                    <li><a href="pass_temp_csv.html">Passenger and Temperature Data</a></li>
-                                    <li><a href="rainfall_csv.html">Rainfall Data</a></li>
+                                <li><a href="top_travel.html">Top 10 Travel Destinations</a></li>
+                                <li><a href="cancun.html">Cancun Plots</a></li>
+                                <li><a href="paris.html#">Paris Plots</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="comparison.html">Comparison Analysis</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="yearly_analysis_csv.html">Yearly Passenger Data</a></li>
+                                <li><a href="pass_temp_csv.html">Passenger and Temperature Data</a></li>
+                                <li><a href="rainfall_csv.html">Rainfall Data</a></li>
                               </ul>
                             </li>
                           </ul>
@@ -58,14 +58,17 @@
                     </nav>
                     <div class="container-fluid">
                       <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12 text-center">
                             <h3>Linear Regression Analysis Comparison</h3>
                         </div>
-                        <div class="col-md-12 info-sub-box" style="display: flex; align-items: right;">
+                        <div class="info-box services-section">
+                        <div class="col-md-3" style="display: flex; align-items: right;">
                           <img src="Resources/paris_regress.png" class="img-responsive" alt="Paris Regress">
+                        </div>
+                        <div class="col-md-3" style="display: flex; align-items: right;">
                           <img src="Resources/cancun_regress.png" class="img-responsive" alt="Cancun Regress">
                         </div>
-                        <div class="col-md-12 info-text-box">
+                        <div class="col-md-12">
                             <p>
                                 These two linear regressions above show the two general types of cities that we found.  One where there is a clear 
                                 pattern of passenger travel increasing as temperature increases(Paris) and one where it did not and seemed more random (Cancun).  
@@ -74,9 +77,12 @@
                                 given, Cancun's hurricane season coincides with the dip in passenger travel.
                             </p>
                         </div>
-                        <div class="col-md-12 info-sub-box" style="display: flex; align-items: right;">
+                        <div class="col-md-3" style="display: flex; align-items: right;">
                           <img src="Resources/cancun_avg_pass_temp.png" class="img-responsive" alt="Paris Regress">
+                        </div>
+                        <div class="col-md-3" style="display: flex; align-items: right;">
                           <img src="Resources/cancun_rain.png" class="img-responsive" alt="Cancun Regress">
+                        </div>
                         </div>
                       </div>
                     </div>
